@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+:root {
+    font-size: 16px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 50%;
+    margin: 10rem auto;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    border: 1px solid #eee;
+    margin-bottom: 2rem;
+}
+
+.score, 
+.q-nums {
+    font-size: 2rem;
+}
+
+.question-block {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 2rem 1rem;
+    border: 1px solid #eee;
+}
+
+.question {
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.answers {
+    margin-top: 1rem;
+}
+
+.answer {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #eee;
+    z-index: 10;
+}
+
+.answer:hover {
+    background-color: #f7f7f7;
+}
+
+.answer-indicator {
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #ccc;
+}
+
+.red {
+    background-color: #ff6347;
+}
+
+.green {
+    background-color: #00c573;
+}
+
+.answer-text {
+    margin-left: 1rem;
+}
+
+.next-btn {
+    margin: 2rem 0;
+    font-family: inherit;
+    display: block;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    border: 1px solid #eee;
+    background: #fff;
+}

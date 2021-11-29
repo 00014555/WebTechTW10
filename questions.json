@@ -1,0 +1,70 @@
+[
+    {
+        "id": "1",
+        "question": "How many students this room can fit?",
+        "answers": [
+            {
+                "value": "49",
+                "is": false
+            },
+            {
+                "value": "100",
+                "is": true
+            },
+            {
+                "value": "20",
+                "is": false
+            },
+            {
+                "value": "300",
+                "is": false
+            }
+        ]
+    },
+
+    {
+        "id": "2",
+        "question": "Which one is not a web standard?",
+        "answers": [
+            {
+                "value": "HTML",
+                "is": false
+            },
+            {
+                "value": "CSS",
+                "is": false
+            },
+            {
+                "value": "JS",
+                "is": false
+            },
+            {
+                "value": "C#",
+                "is": true
+            }
+        ]
+    },
+
+    {
+        "id": "3",
+        "question": "Which is not JS primitve data type?",
+        "answers": [
+            {
+                "value": "object",
+                "is": false
+            },
+            {
+                "value": "array",
+                "is": false
+            },
+            {
+                "value": "string",
+                "is": true
+            },
+            {
+                "value": "Map",
+                "is": false
+            }
+        ]
+    }
+]
